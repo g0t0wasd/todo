@@ -1,6 +1,6 @@
 (function() {
 
-    window.App = {
+    App = {
         Models: {},
         Collections: {},
         Views: {},
