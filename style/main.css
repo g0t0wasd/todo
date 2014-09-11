@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: green;
+}
+
+.wrapper{
+    width : 500px;
+    outline: solid red 1px;
+    background-color: lightblue;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 15px;
+}
+
+li{
+    list-style: none;
+    text-align: justify;
+    height: 70px;
+    padding: 10px;
+    line-height: 45px;
+}
+
+
+
+.done{
+    text-decoration: line-through;
+    color:gray;
+}
+
+.single-task-wrapper{
+    text-align: justify;
+    float: left;
+    width: 65%;
+    font-size: 13px;
+}
+.single-task-wrapper, .edit:hover{
+    cursor: pointer;
+}
+
+.edit, .delete {
+    margin-left: 5px;
+    margin-top: 8px;
+}
+
+.edit {
+    float: left;
+    outline: solid red 1px;
+    width: 25px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.edit i{
+    visibility: hidden;
+    color: green;
+}
+
+.delete {
+    width : 20px;
+    height: 20px;
+    float: right;
+}
+
+.delete:hover{
+    cursor: pointer;
+}
+
+.delete:hover i{
+    font-size: 20px;
+}
+
+.delete i{
+    color:red;
+    font-size: 15px;
+}
+
+.addTaskWrapper{
+    text-align: center;
+    height: 500px;
+}
+input[type=text]{
+    height: 30px;
+}
+
+input[type=button]{
+    height: 30px;
+}
+
+#status{
+    color:red;
+}
+h1, h3, .task_nav{
+    text-align: center;
+}
+
+.task-wrapper{
+    text-align: justify;
+    border-radius: 5px;
+}
+
+.task_descr{
+    margin:0 10px;
+    padding-bottom: 5px;
+
+}
+
+i {
+    font-size: 25px;
+}
+
+.glyphicon-pencil, .glyphicon-list{
+    font-size: 14px;
+    margin-right: 28px;
+}
+
+li.list-group-item{
+    padding : 10px 8px;
+}
+textarea.form-control{
+    height: 300px !important;
+}
